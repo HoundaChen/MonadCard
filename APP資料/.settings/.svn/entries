@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://my-word-card.googlecode.com/svn"
+   name=""
+   revision="3"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard/.settings"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="org.eclipse.core.resources.prefs"
+   checksum="beec3ae3783815129194e792eba2eca5"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-05T12:18:44.289000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="org.eclipse.jdt.core.prefs"
+   checksum="dedfa1639b1ef42bffad86ae405d2396"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-01T13:49:11.701000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+</wc-entries>

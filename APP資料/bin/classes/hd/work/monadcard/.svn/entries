@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://my-word-card.googlecode.com/svn"
+   revision="3"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard/src/hd/work/monadcard"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="Card.java"
+   checksum="f05ba8cb2ed9c05c126c3214b547af6d"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-06T03:53:55.377000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="Card1.java"
+   revision="4"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="Card2.java"
+   checksum="595c22715be7d52b651a18cbdee0a8c1"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-08T13:58:20.044000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="Card3.java"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-13T04:36:43.250000Z"
+   committed-rev="4"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"
+   revision="4"
+   checksum="0f31a036422b9cca5d79d0814be40720"/>
+<entry
+   name="DbAdapter.java"
+   revision="4"
+   checksum="828952290094143fbd196374cb3eb6dd"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="4"
+   text-time="2013-04-13T04:44:23.730000Z"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"/>
+<entry
+   name="MainActivity.java"
+   checksum="c7adbcd0a08a85db829a9f89ea2de206"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-05T16:34:58.740000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="Setpage.java"
+   revision="4"
+   checksum="5252ab92a4dbfcf0814c26d99a6044bb"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="4"
+   text-time="2013-04-13T05:35:43.293000Z"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"/>
+</wc-entries>

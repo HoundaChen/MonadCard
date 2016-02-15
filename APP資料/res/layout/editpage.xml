@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wordcard" >
+
+    <EditText
+        android:id="@+id/editword"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="42dp"
+        android:background="@null"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/Ewrod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editword"
+        android:layout_below="@+id/editword"
+        android:text="輸入或編輯,你所想要的字." />
+
+    <EditText
+        android:id="@+id/editchiness"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/Ewrod"
+        android:layout_below="@+id/Ewrod"
+        android:background="@null"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editchiness"
+        android:layout_below="@+id/editchiness"
+        android:text="輸入或編輯,字的中文意思." />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/count"
+        android:layout_below="@+id/count"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/wrod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:text="輸入或編輯,字的例句." />
+
+    <EditText
+        android:id="@+id/editcText"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/wrod"
+        android:layout_below="@+id/wrod"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/chiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editcText"
+        android:layout_below="@+id/editcText"
+        android:text="輸入或編輯,字的例句說明." />
+
+    <ImageButton
+        android:id="@+id/imageButtona1dd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/chiness"
+        android:layout_below="@+id/chiness"
+        android:src="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/imageButton1del"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/wrod"
+        android:layout_below="@+id/chiness"
+        android:src="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton1home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/editcText"
+        android:layout_alignTop="@+id/imageButton1del"
+        android:src="@android:drawable/ic_menu_manage" />
+
+    <TextView
+        android:id="@+id/testwrod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtona1dd"
+        android:layout_below="@+id/imageButtona1dd"
+        android:text="Add"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/testwrod"
+        android:layout_alignBottom="@+id/testwrod"
+        android:layout_alignLeft="@+id/imageButton1del"
+        android:text="reset"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton1home"
+        android:layout_toRightOf="@+id/chiness"
+        android:text="Home"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

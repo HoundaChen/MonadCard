@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootwindow1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wordcard" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="38dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/Ewrod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單字數目:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/autoplay1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Auto" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wrod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/chiness"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:paddingTop="8dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="240dp"
+            android:layout_height="90dp"
+            android:paddingTop="15dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/ctext"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:paddingTop="10dp"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/upbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="24dp"
+        android:text="上一個" />
+
+    <Button
+        android:id="@+id/downbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/menubutton"
+        android:layout_alignBottom="@+id/menubutton"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/menubutton"
+        android:text="下一個" />
+
+    <Button
+        android:id="@+id/menubutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/upbutton"
+        android:layout_alignBottom="@+id/upbutton"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/upbutton"
+        android:text="@string/m_menu" />
+
+</RelativeLayout>

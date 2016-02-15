@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://my-word-card.googlecode.com/svn"
+   name=""
+   revision="3"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard/bin/dexedLibs"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="android-support-v4-eb903e70a0d35f1d7fd18b5fdcfa45e2.jar"
+   checksum="159644a9b1513a27bba3c9934884271f"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-04T13:20:50.869000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"
+   prop-time="2013-04-09T13:37:20.818000Z"/>
+<entry
+   name="annotations-3d1fd7559f1071f04a5cdfad8bb3f06e.jar"
+   checksum="5513262bb7b0a4635017294bcb3c94d7"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-04T13:20:50.899000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"
+   prop-time="2013-04-09T13:37:21.151000Z"/>
+</wc-entries>

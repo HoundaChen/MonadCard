@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://my-word-card.googlecode.com/svn"
+   revision="2"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard"
+   uuid="ddb74c36-9197-fb66-1a52-17a775b2820d"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2013-04-09T13:36:28.977010Z"/>
+<entry
+   name=".classpath"
+   revision="3"
+   checksum="190f666332cc550efd902a01024e2762"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-01T13:49:13.665000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name=".project"
+   revision="3"
+   checksum="a749aaf1466df64a280520b009d16cbe"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-01T13:49:08.146000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   name="AndroidManifest.xml"
+   revision="4"
+   checksum="f50fc104849cf150ca27644e742264df"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="4"
+   text-time="2013-04-13T05:33:15.082000Z"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="ic_launcher-web.png"
+   revision="3"
+   checksum="bca8a5efa7f346ceaf1054e44f00202c"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-01T13:49:10.059000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"
+   prop-time="2013-04-09T13:37:19.768000Z"/>
+<entry
+   name="libs"
+   kind="dir"/>
+<entry
+   name="proguard-project.txt"
+   revision="3"
+   checksum="18bfe77c342b4698f1cef19cf8d918e2"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-01T13:49:08.274000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="project.properties"
+   revision="3"
+   checksum="87a73351018ba97510129fd4fe609a6c"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-01T13:49:17.634000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

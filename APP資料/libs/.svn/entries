@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://my-word-card.googlecode.com/svn"
+   revision="3"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard/libs"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="android-support-v4.jar"
+   checksum="7b5efe58fd28cbc7fa8f9e88ab9c7d65"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-01T13:49:09.735000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"
+   prop-time="2013-04-09T13:37:20.725000Z"/>
+</wc-entries>

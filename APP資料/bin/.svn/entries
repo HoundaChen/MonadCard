@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://my-word-card.googlecode.com/svn"
+   revision="3"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard/bin"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="AndroidManifest.xml"
+   revision="4"
+   checksum="f50fc104849cf150ca27644e742264df"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="4"
+   text-time="2013-04-13T05:33:15.472000Z"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"/>
+<entry
+   name="MonadCard.apk"
+   revision="4"
+   checksum="0d5cb1cbbc0648ce14966ce68ccfcc5d"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="4"
+   text-time="2013-04-13T05:34:10.430000Z"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"
+   prop-time="2013-04-09T13:37:20.521000Z"/>
+<entry
+   name="classes"
+   kind="dir"/>
+<entry
+   name="classes.dex"
+   revision="4"
+   checksum="404d801be1025b1817aa64e18a0965aa"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="4"
+   text-time="2013-04-13T05:34:10.112000Z"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"
+   prop-time="2013-04-09T13:37:20.328000Z"/>
+<entry
+   name="dexedLibs"
+   kind="dir"/>
+<entry
+   name="jarlist.cache"
+   checksum="89e3bd3d36955bcf2aba5ee786f0f0a4"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="3"
+   text-time="2013-04-09T13:16:31.685000Z"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   name="resources.ap_"
+   revision="4"
+   checksum="5e3efbb673f3441b3ba564fddd765b25"
+   last-author="hounda.chen@gmail.com"
+   committed-rev="4"
+   text-time="2013-04-13T05:34:09.746000Z"
+   kind="file"
+   committed-date="2013-04-13T05:40:27.492000Z"
+   prop-time="2013-04-09T13:37:20.151000Z"/>
+</wc-entries>

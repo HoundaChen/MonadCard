@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/cardpage" />
+
+    <TextView
+        android:id="@+id/count1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/count"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="32dp"
+        android:text="I    AM    A"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/count1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="WORD     CARD ."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

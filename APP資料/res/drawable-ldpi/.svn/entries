@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://my-word-card.googlecode.com/svn"
+   revision="3"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard/res/drawable-ldpi"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="ic_launcher.png"
+   checksum="0ccf788696762cab70b29d650e5829a5"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-06T12:49:50.812000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"
+   prop-time="2013-04-09T13:37:20.209000Z"/>
+</wc-entries>

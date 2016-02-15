@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="top|center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/wrod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:gravity="top"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/Chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="63dp"
+        android:text="@string/set" />
+
+    <Button
+        android:id="@+id/frb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/setb"
+        android:layout_alignBottom="@+id/setb"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_marginLeft="27dp"
+        android:text="@string/fr" />
+
+    <Button
+        android:id="@+id/neb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/setb"
+        android:layout_alignBottom="@+id/setb"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@+id/setb"
+        android:text="@string/ne" />
+
+</RelativeLayout>

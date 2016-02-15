@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://my-word-card.googlecode.com/svn"
+   name=""
+   revision="3"
+   last-author="hounda.chen@gmail.com"
+   url="https://my-word-card.googlecode.com/svn/trunk/MonadCard/res/drawable"
+   committed-rev="3"
+   kind="dir"
+   committed-date="2013-04-09T13:37:38.145000Z"/>
+<entry
+   name="cardpage.jpg"
+   checksum="0eafff9b025e643a3a1033f95375e214"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-03T14:58:45.648000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"
+   prop-time="2013-04-09T13:37:21.213000Z"/>
+<entry
+   name="paper.jpg"
+   checksum="0d556522382ae71e8954d9929d753392"
+   last-author="hounda.chen@gmail.com"
+   text-time="2013-04-04T09:38:11.056000Z"
+   committed-rev="3"
+   kind="file"
+   committed-date="2013-04-09T13:37:38.145000Z"
+   prop-time="2013-04-09T13:37:19.676000Z"/>
+</wc-entries>
